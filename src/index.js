@@ -1,6 +1,13 @@
+import '@fontsource/roboto'
 import React from 'react'
 import { render } from 'react-dom'
 
-import { Root } from '~/components/Root'
+import { Root } from '#root/components/Root'
+import { ThemeProvider } from '#root/theme'
 
-render(<Root />, document.getElementById('root'))
+render(
+  <ThemeProvider>
+    <Root />
+  </ThemeProvider>,
+  document.getElementById('root')
+)
