@@ -2,7 +2,6 @@
   "author": "Titux Metal <github@lgdweb.fr>",
   "description": "React Apollo Music Share following the React Bootcamp.",
   "license": "MIT",
-  "main": "index.js",
   "name": "react-apollo-music-share",
   "private": true,
   "version": "1.0.0",
