@@ -10,7 +10,7 @@ const Header = () => {
   const { root } = useStyles()
 
   return (
-    <AppBar color='secondary' position='fixed'>
+    <AppBar color='primary' position='sticky'>
       <Toolbar>
         <HeadsetTwoTone />
         <Typography className={root} variant='h6' component='h1'>
