@@ -12,11 +12,11 @@ const Root = () => (
       <Header />
     </Grid>
     <Grid container>
-      <Grid item xs={12} sm={6}>
+      <Grid item xs={12} sm={7}>
         <AddSong />
         <SongList />
       </Grid>
-      <Grid item xs={12} sm={6}>
+      <Grid item xs={12} sm={5}>
         <SongPlayer />
       </Grid>
     </Grid>
