@@ -11,7 +11,7 @@ const AddSong = () => {
   const handleCloseDialog = () => setDialogIsOpen(false)
 
   return (
-    <Grid container alignItems='center'>
+    <Grid container alignItems='center' wrap='nowrap'>
       <FormDialog open={dialogIsOpen} onClose={handleCloseDialog} />
       <InputField />
       <AddButton onClick={() => setDialogIsOpen(true)}>Add</AddButton>
