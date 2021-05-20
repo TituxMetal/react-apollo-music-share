@@ -23,7 +23,7 @@
         "newlines-between": "always",
         "pathGroups": [
           {
-            "pattern": "~/**",
+            "pattern": "#root/**",
             "group": "parent"
           }
         ]
